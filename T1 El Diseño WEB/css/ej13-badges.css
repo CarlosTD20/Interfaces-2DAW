@@ -1,0 +1,132 @@
+:root{
+
+    /*Colores Principales*/
+    --color-primary:#0056b8;
+    --color-secundary : #5b5c5d;
+    --color-succes: #0f8f2f;
+    --color-danger: #c53030;
+    --color-warning: #c4961f;
+    --color-info:#50a7da;
+    --color-ligth:#f8f9fa;
+    --color-dark:#212529;
+
+    /*Colores Secundarios*/
+    --color-balnco:#ffffff;
+    --color-negro:#212529;
+}
+
+div{
+    margin: 15px;
+}
+
+/*BADGES*/
+
+
+/*Creación del Elemento*/
+.c-badges{
+    --c-badges-back-ground-color: var(--color-primary);
+    --c-badges-color-color: var(--color-ligth);
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 4px 8px 4px 8px;
+
+    border-radius: 10px;
+    border-width: 1px;
+
+    
+    
+    background-color: var(--c-badges-back-ground-color);
+    color: var(--c-badges-color-color);
+}
+/*Asignación del color al elemento*/
+.c-badges--secondary{
+    --c-badges-back-ground-color: var(--color-secundary);
+    --c-badges-color-color:var(--color-balnco);
+}
+
+.c-badges--succes{
+    --c-badges-back-ground-color: var(--color-succes);
+    --c-badges-color-color:var(--color-balnco);
+}
+
+.c-badges--danger{
+    --c-badges-back-ground-color: var(--color-danger);
+    --c-badges-color-color:var(--color-balnco);
+}
+
+.c-badges--warning{
+    --c-badges-back-ground-color: var(--color-warning);
+    --c-badges-color-color:var(--color-negro);
+}
+
+.c-badges--info{
+    --c-badges-back-ground-color: var(--color-info);
+    --c-badges-color-color:var(--color-negro);
+}
+
+.c-badges--ligth{
+    --c-badges-back-ground-color: var(--color-ligth);
+    --c-badges-color-color:var(--color-negro);
+}
+
+.c-badges--dark{
+    --c-badges-back-ground-color: var(--color-dark);
+    --c-badges-color-color:var(--color-balnco);
+}
+
+/*NOTIFICACIONES*/
+
+.c-badges__notification{
+
+    --c-notification-back-ground-color: var(--color-primary);
+    --c-notification-color-color: var(--color-blanco);
+
+    padding: 2px;
+    border-radius: 2px; 
+    border-width: 1px;
+
+    background-color: var(--c-notification-back-ground-color);
+    color: var(--c-notification-color-color);
+}
+
+.c-badges__notification--primary{
+    --c-notification-back-ground-color:var(--color-danger);
+    --c-notification-color-color: var(--color-blanco);
+}
+
+.c-badges__notification--secondary{
+    --c-notification-back-ground-color:var(--color-danger);
+    --c-notification-color-color: var(--color-blanco);
+}
+
+.c-badges__notification--succes{
+    --c-notification-back-ground-color:var(--color-danger);
+    --c-notification-color-color: var(--color-blanco);
+}
+
+.c-badges__notification--danger{
+    --c-notification-back-ground-color:var(--color-primary  );
+    --c-notification-color-color: var(--color-blanco);
+}
+
+.c-badges__notification--warning{
+    --c-notification-back-ground-color:var(--color-danger);
+    --c-notification-color-color: var(--color-blanco);
+}
+
+.c-badges__notification--info{
+    --c-notification-back-ground-color:var(--color-danger);
+    --c-notification-color-color: var(--color-blanco);
+}
+
+.c-badges__notification--ligth{
+    --c-notification-back-ground-color:var(--color-danger);
+    --c-notification-color-color: var(--color-blanco);
+}
+
+.c-badges__notification--dark{
+    --c-notification-back-ground-color:var(--color-danger);
+    --c-notification-color-color: var(--color-blanco);
+}

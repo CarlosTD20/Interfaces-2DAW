@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr,td,th,button{
+    padding: 10px;
+}
+
+.c-button--normal{
+    background-color: blue;
+    color: blue;
+    border-color: blue;
+}
+
+.c-button--alternativa{
+    
+    background-color: orange;
+    color: orange;
+    border-color: orange;
+}
+
+.c-button--peligrosa{
+    
+    background-color: red;
+    color: red;
+    border-color: red;
+}
+
+.c-button--primaria{
+    color: white;
+}
+
+.c-button--secundaria{
+    background-color: white;
+}
+
+.c-button--terciaria{
+    border: none;
+    background-color: white;
+}
+
+/*
+.primaria{
+    background-color: blue;
+    color: white;
+}
+
+.secundaria{
+    border-color: blue;
+    color: blue;
+}
+  
+.terciaria{
+    border: none;
+    color: blue;
+    background-color: white;
+}
+
+*/

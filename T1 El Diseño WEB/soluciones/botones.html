@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Botones</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      :root {
+        --color-normal: #0056b8;
+        --color-alternativo: #ed8936;
+        --color-peligroso: #c53030;
+        --color-ecologico: #76c530;
+        --color-blanco: #ffffff;
+      }
+
+      .c-button {
+        --c-button-strong-color: var(--color-normal);
+        --c-button-weak-color: var(--color-blanco);
+
+
+        font-family: sans-serif;
+        font-size: 16px;
+        padding: 12px;
+
+        border-radius: 6px;
+        border-width: 1px;
+        border-style: solid;
+
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+
+
+        border-color: var(--c-button-strong-color);
+        background-color: var(--c-button-strong-color);
+        color: var(--c-button-weak-color);
+      }
+
+
+      .c-button--alternativo {
+        --c-button-strong-color: var(--color-alternativo);
+      }
+      .c-button--peligroso {
+        --c-button-strong-color: var(--color-peligroso);
+      }
+      .c-button--ecologico {
+        --c-button-strong-color: var(--color-ecologico);
+      }
+
+
+
+      .c-button--secundario {
+        border-color: var(--c-button-strong-color);
+        background-color: var(--c-button-weak-color);
+        color: var(--c-button-strong-color);
+      }
+      .c-button--terciario {
+        border-color: transparent;
+        background-color: transparent;
+        color: var(--c-button-strong-color);
+      }
+
+      .c-button--large{
+        font-size: 20px;
+        padding: 16px;
+      }
+
+      .c-button--small{
+        font-size: 12px;
+        padding: 8px;
+      }
+
+    </style>
+
+    <style>
+      td {
+        padding: 10px;
+      }
+
+      table {
+        background-color: #f5f5f5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--secundario">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--terciario">Más información</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--alternativo">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--alternativo c-button--secundario">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--alternativo c-button--terciario">Más información</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--peligroso">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--peligroso c-button--secundario">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--peligroso c-button--terciario">Más información</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--ecologico">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--ecologico c-button--secundario">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--ecologico c-button--terciario">Más información</a></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--large">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--secundario c-button--large">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--terciario c-button--large">Más información</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--alternativo c-button--large">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--alternativo c-button--secundario c-button--large">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--alternativo c-button--terciario c-button--large">Más información</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--peligroso c-button--large">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--peligroso c-button--secundario c-button--large">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--peligroso c-button--terciario">Más información</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--ecologico c-button--large">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--ecologico c-button--secundario c-button--large">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--ecologico c-button--terciario c-button--large">Más información</a></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--small">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--secundario c-button--small">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--terciario c-button--small">Más información</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--alternativo c-button--small">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--alternativo c-button--secundario c-button--small">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--alternativo c-button--terciario c-button--small">Más información</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--peligroso c-button--small">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--peligroso c-button--secundario c-button--small">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--peligroso c-button--terciario c-button--small">Más información</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.es" class="c-button c-button--ecologico c-button--small">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--ecologico c-button--secundario c-button--small">Más información</a></td>
+        <td><a href="https://www.google.es" class="c-button c-button--ecologico c-button--terciario c-button--small">Más información</a></td>
+      </tr>
+    </table>
+
+  </body>
+</html>

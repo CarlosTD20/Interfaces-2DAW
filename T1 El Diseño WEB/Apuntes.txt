@@ -1,0 +1,7 @@
+Difícil => El nombre de las clases
+
+c-button -> la "c" nos indica que es un componente
+funcionalternatica
+funcionpeligorsa
+importanciasecundaria		=> clases pensadas para poder ser utilizadas en diferentes sitios 
+importanciaterciaria

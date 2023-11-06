@@ -1,93 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04b5c188-5cee-4f14-9b7c-0a156d943c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CaixaSegur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T1 El Diseño WEB/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T1 El Diseño WEB/.idea/T1 El Diseño WEB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T1 El Diseño WEB/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T1 El Diseño WEB/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T1 El Diseño WEB/css/display.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T1 El Diseño WEB/display.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XaicaBanc/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XaicaBanc/.idea/XaicaBanc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XaicaBanc/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XaicaBanc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/card-coche-gris.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/card-hombre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/card-montaña.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/card-ocean.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/card-pianista.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/card-samsung.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/card-volante.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/carrusel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/circular-hombre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/circular-hombre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/circular-mujer1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/circular-mujer2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/circular-mujer3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/circular-mujer4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/circular-mujer5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/circular-mujer6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/footer-cajero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/footer-nosotros.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/footer-personas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/icons/billete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/icons/dispositivos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/icons/hucha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/icons/paraguas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/icons/reloj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/icons/tick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/images/icons/ubicacion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/01_utilities/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/02_base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/03_layout/_l-columns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/03_layout/_l-large-description.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-card-circle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-card-container.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-card-info.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-circled-cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-info-cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-interest.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-needs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/04_components/_c-title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss-prueba/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/01_utilities/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/01_utilities/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/03_layout/_l-barge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/03_layout/_l-columns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.card-circle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.card-container.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.card-info.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.circled-cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.info-cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.interest.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.needs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/04_components/_c.title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/06_global/_g--padding.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/07_mierda/_mierda.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diw-caixabank-main/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaixaSegur/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CaixaSegur/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaixaSegur/scss/02_base/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CaixaSegur/scss/02_base/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaixaSegur/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/CaixaSegur/scss/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaixaSegur/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CaixaSegur/scss/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XaicaBanc" beforeDir="false" afterPath="$PROJECT_DIR$/XaicaBanc" afterDir="false" />
-    </list>
+    <list default="true" id="04b5c188-5cee-4f14-9b7c-0a156d943c8a" name="Changes" comment="change ssh repository to https" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,25 +9,26 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2XTnmygts0FI5MNRkorVdAjqVDI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/carlo/Desktop/Interfaces-2DAW",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/carlo/Desktop/Interfaces-2DAW&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -123,10 +38,24 @@
       <option name="presentableId" value="Default" />
       <updated>1698662099608</updated>
       <workItem from="1698662100672" duration="39000" />
+      <workItem from="1698662192776" duration="179000" />
     </task>
+    <task id="LOCAL-00001" summary="change ssh repository to https">
+      <option name="closed" value="true" />
+      <created>1698662218714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698662218714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change ssh repository to https" />
+    <option name="LAST_COMMIT_MESSAGE" value="change ssh repository to https" />
   </component>
 </project>

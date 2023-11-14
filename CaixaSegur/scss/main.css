@@ -498,31 +498,6 @@ html {
   position: relative;
 }
 
-.l-centrado {
-  display: flex;
-}
-.l-centrado:has(.l-centrado__area--vertical) {
-  height: 100vh;
-}
-.l-centrado__area--horizontal {
-  margin-left: auto;
-  margin-right: auto;
-}
-.l-centrado__area--vertical {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.l-extremo {
-  display: flex;
-}
-.l-extremo__area-izquierda {
-  margin-right: auto;
-}
-.l-extremo__area-derecha {
-  margin-left: auto;
-}
-
 .c-card-service {
   display: grid;
   align-items: center;

@@ -9,8 +9,10 @@
 
 .l-centrado {
   display:flex;
-  height: 100vh;
 
+  &:has(.l-centrado__area--vertical){
+    height: 100vh;
+  }
   &__area {
 
     &--horizontal {

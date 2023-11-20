@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="pruebagrid.html" >
     <title>Document</title>
 </head>
 <style>
@@ -57,7 +58,7 @@
     .l-columns--2 {
         grid-template-columns: repeat(2, 1fr);
     }
-    .l-columns--3 {
+    z.l-columns--3 {
         grid-template-columns: repeat(3, 1fr);
     }
     .l-columns--4 {
@@ -84,9 +85,24 @@
         margin-left: auto;
     }
 
+    .c-button-variables{
+        --color-primary-9: #1E3B8A;
+        --color-reds-9: #811D1D;
+
+        --c-button-background-color-default:var(--color-reds-9);
+        --c-button-background-color-succes:var(--color-primary-9);
+
+        --c-button-background-color:var(--c-button-background-color-default);
+
+        background-color:var(--c-button-background-color) ;
+    }
+
+    .c-button-variables__succes {
+        --c-button-background-color:var(--c-button-background-color-succes);
+    }
 </style>
 <body>
-<div class="container">
+<div class="container ">
     <div class="item">Item1</div>
     <div class="item">Item2</div>
     <div class="item">Item3</div>
@@ -98,8 +114,8 @@
 
 </div>
 <br>
-<div class="container2">
-    <div class="item-blue">Item1</div>
+<div class="container2 ">
+    <div class="item-blue ">Item1</div>
     <div class="item-blue">Item2</div>
     <div class="item-blue">Item3</div>
     <div class="item-blue">Item4</div>
@@ -109,9 +125,9 @@
     <div class="item-blue">Item8</div>
 </div>
 <br>
-<div class="container3">
+<div class="container3 c-button-variables">
     <div class="item-green">Item1</div>
-    <div class="item-green">Item2</div>
+    <div class="item-green c-button-variables c-button-variables__succes">Item2</div>
     <div class="item-green">Item3</div>
     <div class="item-green">Item4</div>
     <div class="item-green">Item5</div>

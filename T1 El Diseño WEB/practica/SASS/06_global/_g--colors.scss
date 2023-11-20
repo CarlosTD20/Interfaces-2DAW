@@ -1,0 +1,20 @@
+:root{
+
+@each $nombreColores, $valorColores in $colors{
+    $index:0;
+    @each $Colores in $valorColores{
+        --color-#{$nombreColores}-#{$index}:#{$Colores};
+        $index:$index+1;
+    }
+}
+}
+
+@each $nombreColores, $valorColores in $colors{
+    $index:0;
+    @each $Colores in $valorColores{
+        .g--color-#{$nombreColores}-#{$index}{
+            color:var(--color-#{$nombreColores}-#{$index});
+        }
+        $index:$index+1;
+    }
+}

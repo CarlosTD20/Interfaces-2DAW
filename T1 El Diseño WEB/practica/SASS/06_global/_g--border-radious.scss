@@ -1,0 +1,5 @@
+@each $bd-valores in $borders-radious{
+    .g--border-radious-#{$bd-valores}{
+        border-radius: $bd-valores;
+    }
+}

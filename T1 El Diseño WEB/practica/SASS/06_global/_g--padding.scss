@@ -1,0 +1,42 @@
+
+@each $padding-valor in $paddings{
+    .g--padding-#{$padding-valor}{
+        padding: $padding-valor;
+    }
+}
+
+@each $padding-valor in $paddings{
+    .g--padding-top-#{$padding-valor}{
+        padding-top: $padding-valor;
+    }
+}
+
+@each $padding-valor in $paddings{
+    .g--padding-bottom-#{$padding-valor}{
+        padding-bottom: $padding-valor;
+    }
+}
+
+@each $padding-valor in $paddings{
+    .g--padding-left-#{$padding-valor}{
+        padding-left: $padding-valor;
+    }
+}
+
+@each $padding-valor in $paddings{
+    .g--padding-right-#{$padding-valor}{
+        padding-right: $padding-valor;
+    }
+}
+
+@each $padding-valor in $paddings{
+    .g--padding-vertical-#{$padding-valor}{
+        @include padding-vertical($padding-valor);
+    }
+}
+
+@each $padding-valor in $paddings{
+    .g--padding-horizontal-#{$padding-valor}{
+        @include padding-horizontal($padding-valor);
+    }
+}

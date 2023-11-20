@@ -4,73 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b4fa632-9e85-4a35-92e2-52f7d27c2887" name="Changes" comment="added SASS folder">
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/assets/adeslas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/assets/patrulla.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/icons/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/icons/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/icons/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/icons/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/icons/icon-question1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/icons/icon-question2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/icons/icon-question3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/adeslas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/adeslas2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/doctor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/handshake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/lupa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/nurse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/images/perfil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/01_utilities/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/02_base/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/02_base/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/03_layout/_l-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/03_layout/_l-centrado.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/03_layout/_l-columns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/03_layout/_l-extremo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/03_layout/_l-flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/03_layout/_l-position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-card-service.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-img-adeslas.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-img-doctor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-img-lupa.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-img-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-img-perfil.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-promo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/04_components/_c-title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/06_global/_g--bg-color-blue.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/06_global/_g--bg-color.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/06_global/_g--global-colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/06_global/_g--opacity.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/06_global/_g--text-uppercase.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/06_global/_g--title-color.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/06_global/_g-box-shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/06_global/_g-margin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/06_global/_g-padding.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaixaSegur/zpruebas/pruebagrid.html" afterDir="false" />
+    <list default="true" id="6b4fa632-9e85-4a35-92e2-52f7d27c2887" name="Changes" comment="added CAIXASEGUR">
+      <change afterPath="$PROJECT_DIR$/SASS/zpruebas/changeVariables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/pruebaCentradoTodaLaPagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/pruebaCentradoTodaLaPagina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/scss/01_utilities/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/01_utilities/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/scss/06_global/_g--global-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/06_global/_g--global-colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/scss/06_global/_g--title-color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/06_global/_g--title-color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/scss/06_global/_g-margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/06_global/_g-margin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/zpruebas/pruebagrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/zpruebas/pruebagrid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +61,13 @@
       <workItem from="1699357634167" duration="2000" />
       <workItem from="1699431033947" duration="1000" />
       <workItem from="1699963569977" duration="1517000" />
+      <workItem from="1699965265183" duration="201000" />
+      <workItem from="1699965476779" duration="481000" />
+      <workItem from="1700140778298" duration="108000" />
+      <workItem from="1700211880486" duration="5431000" />
+      <workItem from="1700393284104" duration="852000" />
+      <workItem from="1700396096325" duration="1048000" />
+      <workItem from="1700397530342" duration="11532000" />
     </task>
     <task id="LOCAL-00001" summary="adedd SCSS">
       <option name="closed" value="true" />
@@ -142,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699965066215</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added CAIXASEGUR">
+      <option name="closed" value="true" />
+      <created>1699965396313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699965396313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adedd SCSS" />
     <MESSAGE value="added SASS folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added SASS folder" />
+    <MESSAGE value="added CAIXASEGUR" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CAIXASEGUR" />
   </component>
 </project>

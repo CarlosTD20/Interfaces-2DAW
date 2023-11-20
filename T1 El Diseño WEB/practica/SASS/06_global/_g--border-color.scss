@@ -1,0 +1,20 @@
+// @each $nombreColores, $valorColores in $colors{
+//     $index:0;
+//     @each $Colores in $valorColores{
+//         .g--border-color-#{$nombreColores}-#{$index}{
+//             border-color:var(--color-#{$nombreColores}-#{$index});
+//         }
+//         $index:$index+1;
+//     }
+// }
+
+@each $nombreColores, $valorColores in $colors{
+    
+    @for $i from 1 through length($valorColores){
+        .g--border-color-#{$nombreColores}-#{$i}{
+            border-color:var(--color-#{$nombreColores}-#{$i});
+        }
+
+    }
+}
+

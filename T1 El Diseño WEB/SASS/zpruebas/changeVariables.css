@@ -1,0 +1,15 @@
+.c-button-variables{
+    --color-primary-9: #1E3B8A;
+    --color-reds-9: #811D1D;
+
+    --c-button-background-color-default:var(--color-reds-9);
+    --c-button-background-color-succes:var(--color-primary-9);
+
+    --c-button-background-color:var(--c-button-background-color-default);
+
+    background-color:var(--c-button-background-color) ;
+}
+
+.c-button-variables__succes {
+    --c-button-background-color:var(--c-button-background-color-succes);
+}

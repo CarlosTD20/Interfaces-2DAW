@@ -1,0 +1,43 @@
+
+@each $margin-valor in $margins{
+    .g--margin-#{$margin-valor}{
+        margin: $margin-valor;
+    }
+
+}
+
+@each $margin-valor in $margins{
+    .g--margin-top-#{$margin-valor}{
+        margin-top: $margin-valor;
+    }
+}
+
+@each $margin-valor in $margins{
+    .g--margin-bottom-#{$margin-valor}{
+        margin-bottom: $margin-valor;
+    }
+}
+
+@each $margin-valor in $margins{
+    .g--margin-left-#{$margin-valor}{
+        margin-left: $margin-valor;
+    }
+}
+
+@each $margin-valor in $margins{
+    .g--margin-right-#{$margin-valor}{
+        margin-right: $margin-valor;
+    }
+}
+
+@each $margin-valor in $margins{
+    .g--margin-vertical-#{$margin-valor}{
+        @include margin-vertical($margin-valor);
+    }
+}
+
+@each $margin-valor in $margins{
+    .g--margin-horizontal-#{$margin-valor}{
+        @include margin-horizontal($margin-valor);
+    }
+}

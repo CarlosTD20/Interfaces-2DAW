@@ -1,0 +1,14 @@
+@each $shadowsName,$shadowsValors in $box-shadows{
+    
+    $separator:"-";
+
+    @if $shadowsName == ""{
+        $separator:"";
+    }
+    
+    
+    .g--box-sahdow#{$separator}#{$shadowsName}{
+        @include box-shadow($shadowsValors)
+    }
+    //@include box-shadow($shadowsValors)
+}

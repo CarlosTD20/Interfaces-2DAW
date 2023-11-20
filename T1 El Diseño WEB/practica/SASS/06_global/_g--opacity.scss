@@ -1,0 +1,11 @@
+@each $nameOpacity,$valorsOpacity in $utilities-opacity{
+    $property: map-get($valorsOpacity, "property");
+    $class: map-get($valorsOpacity,"class");
+    $values: map-get($valorsOpacity,"values");
+    
+    @each $valuesName,$valuesValors in $values{
+        .g-#{$class}-#{$valuesName}{
+            #{$property}:$valuesValors
+        }
+    }
+}

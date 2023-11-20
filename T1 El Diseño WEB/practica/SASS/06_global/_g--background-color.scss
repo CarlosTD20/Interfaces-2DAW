@@ -1,0 +1,17 @@
+@each $nombreColores, $valorColores in $colors{
+    $index:0;
+    @each $Colores in $valorColores{
+        .g--background-color-#{$nombreColores}-#{$index}{
+            background-color:var(--color-#{$nombreColores}-#{$index});
+        }
+        $index:$index+1;
+    }
+}@each $nombreColores, $valorColores in $colors{
+    $index:0;
+    @each $Colores in $valorColores{
+        .g--background-color-#{$nombreColores}-#{$index}{
+            background-color:var(--color-#{$nombreColores}-#{$index});
+        }
+        $index:$index+1;
+    }
+}

@@ -1,0 +1,44 @@
+
+tr,td,th,button{
+    padding: 10px;
+}
+
+.c-button{
+
+    --color-primaria:var(--color-primary-8);
+    --color-alternativa:var(--color-alterntaive-5);
+    --color-peligrosa:var(--color-reds-8);
+    --color-peligrosa:var(--color-reds-8);
+    --color-blanco:var(--color-white-8);
+
+    --button-color:var(--color-primaria);
+    --button-background-color:var(--color-primaria);
+    --button-border-color:var(--color-primaria);
+
+    color: var(--button-color);
+    background-color: var(--button-background-color);
+    border-color: var(--button-border-color);
+
+
+    &--alternativa{
+        --button-color:var(--color-alternativa);
+        --button-background-color:var(--color-alternativa);
+        --button-border-color:var(--color-alternativa);
+    }
+    &--peligrosa{
+        --button-color:var(--color-peligrosa);
+        --button-background-color:var(--color-peligrosa);
+        --button-border-color:var(--color-peligrosa);
+    }
+
+    &--primario{
+        --button-color:var(--color-blanco);
+    }
+    &--secundario{
+        --button-background-color:var(--color-blanco);
+    }
+    &--terciario{
+        --button-background-color:var(--color-blanco);
+        --button-border-color:var(--color-blanco);
+    }
+}

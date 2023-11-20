@@ -1,0 +1,28 @@
+//margins
+@mixin margin-vertical($margin-valor){
+    margin-top: $margin-valor;
+    margin-bottom: $margin-valor;
+}
+
+@mixin margin-horizontal($margin-valor){
+    margin-left: $margin-valor;
+    margin-right: $margin-valor;
+}
+
+//Paddings
+@mixin padding-vertical($padding-valor){
+    padding-top: $padding-valor;
+    padding-bottom: $padding-valor;
+}
+
+@mixin padding-horizontal($padding-valor){
+    padding-left: $padding-valor;
+    padding-right: $padding-valor;
+}
+
+//Box-Shadows
+@mixin box-shadow($shadowsValors){
+    -webkit-box-shadow: $shadowsValors;
+    -moz-box-shadow: $shadowsValors;
+    box-shadow: $shadowsValors;
+}

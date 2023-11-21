@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95bfdedd-8e1e-48d1-8d78-3d5e0e3b0ac6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../T1 El Diseño WEB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../T1 El Diseño WEB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1 El Diseño WEB/practica/SASS/02_base/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1 El Diseño WEB/practica/SASS/02_base/_reset.scss" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2YQpgmYOu04JHrNlmVjczdMXTWx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/carlo/Desktop/Interfaces-2DAW/Examen 1º Evaluación Carlos Tornero",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carlo\Desktop\Interfaces-2DAW\Examen 1º Evaluación\ejercicio4\scss\06_global" />
+      <recent name="C:\Users\carlo\Desktop\Interfaces-2DAW\Examen 1º Evaluación\ejercicio4\scss\01_utilities" />
+      <recent name="C:\Users\carlo\Desktop\Interfaces-2DAW\Examen 1º Evaluación\ejercicio5\scss" />
+      <recent name="C:\Users\carlo\Desktop\Interfaces-2DAW\Examen 1º Evaluación\ejercicio4\scss" />
+      <recent name="C:\Users\carlo\Desktop\Interfaces-2DAW\Examen 1º Evaluación\ejercicio2\scss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carlo\Desktop\Interfaces-2DAW\Examen 1º Evaluación\ejercicio3\scss\01_utilities" />
+      <recent name="C:\Users\carlo\Desktop\Interfaces-2DAW\Examen 1º Evaluación\ejercicio4\scss\01_utilities" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95bfdedd-8e1e-48d1-8d78-3d5e0e3b0ac6" name="Changes" comment="" />
+      <created>1700467770465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700467770465</updated>
+      <workItem from="1700467771486" duration="15401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

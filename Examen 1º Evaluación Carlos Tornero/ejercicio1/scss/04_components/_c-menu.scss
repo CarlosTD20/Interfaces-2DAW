@@ -1,0 +1,15 @@
+.c-menu{
+  display: flex;
+  color: red;
+
+  &__area-izquierda {
+    margin-right: auto;
+  }
+  &__area-derecha {
+    margin-left: auto;
+  }
+  &__area-centrado{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

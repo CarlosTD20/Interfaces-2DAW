@@ -1,0 +1,35 @@
+:root {
+  @each $nombre-color, $tonos in map-get($set-colores, "colores") {
+    $index: 0;
+    @each $color-value in $tonos {
+      $nombre-tono: nth(map-get($set-colores, "nombre-colores"), $index + 1);
+
+      $separator:"-";
+      @if($nombre-tono == ""){
+        $separator:"";
+      }
+
+      --color-#{$nombre-color}#{$separator}#{$nombre-tono}:#{$color-value};
+      $index: $index + 1;
+    }
+  }
+}
+
+
+@each $nombre-color, $tonos in map-get($set-colores, "colores") {
+  $index: 0;
+  @each $color-value in $tonos {
+    $nombre-tono: nth(map-get($set-colores, "nombre-colores"), $index + 1);
+
+    $separator:"-";
+    @if($nombre-tono == ""){
+      $separator:"";
+    }
+
+    .g--color-#{$nombre-color}#{$separator}#{$nombre-tono}-#{$index} {
+      color: var(--color-#{$nombre-color}#{$separator}#{$nombre-tono});
+    }
+
+    $index: $index + 1;
+  }
+}

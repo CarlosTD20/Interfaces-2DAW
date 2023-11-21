@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b4fa632-9e85-4a35-92e2-52f7d27c2887" name="Changes" comment="added CAIXASEGUR">
-      <change afterPath="$PROJECT_DIR$/SASS/zpruebas/changeVariables.css" afterDir="false" />
+    <list default="true" id="6b4fa632-9e85-4a35-92e2-52f7d27c2887" name="Changes" comment="estudiar sass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/pruebaCentradoTodaLaPagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/pruebaCentradoTodaLaPagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/scss/01_utilities/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/01_utilities/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/scss/06_global/_g--global-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/06_global/_g--global-colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/scss/06_global/_g--title-color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/06_global/_g--title-color.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/scss/06_global/_g-margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/06_global/_g-margin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/scss/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/zpruebas/pruebagrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/zpruebas/pruebagrid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica/SASS/02_base/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica/SASS/02_base/_reset.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +25,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/carlo/Desktop/Interfaces-2DAW/T1 El Diseño WEB&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/carlo/Desktop/Interfaces-2DAW/Examen 1º Evaluación",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +61,7 @@
       <workItem from="1700393284104" duration="852000" />
       <workItem from="1700396096325" duration="1048000" />
       <workItem from="1700397530342" duration="11532000" />
+      <workItem from="1700465101830" duration="2517000" />
     </task>
     <task id="LOCAL-00001" summary="adedd SCSS">
       <option name="closed" value="true" />
@@ -101,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699965396313</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="estudiar sass">
+      <option name="closed" value="true" />
+      <created>1700465256717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700465256717</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +113,7 @@
     <MESSAGE value="adedd SCSS" />
     <MESSAGE value="added SASS folder" />
     <MESSAGE value="added CAIXASEGUR" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CAIXASEGUR" />
+    <MESSAGE value="estudiar sass" />
+    <option name="LAST_COMMIT_MESSAGE" value="estudiar sass" />
   </component>
 </project>

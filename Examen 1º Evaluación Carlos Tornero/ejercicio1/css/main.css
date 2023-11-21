@@ -1,0 +1,16 @@
+.c-menu {
+  display: flex;
+  color: red;
+}
+.c-menu__area-izquierda {
+  margin-right: auto;
+}
+.c-menu__area-derecha {
+  margin-left: auto;
+}
+.c-menu__area-centrado {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=main.css.map */

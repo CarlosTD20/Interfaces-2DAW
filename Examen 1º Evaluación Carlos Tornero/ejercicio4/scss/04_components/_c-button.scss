@@ -1,0 +1,49 @@
+.c-button {
+  --color-encendido: var(--color-verde-claro);
+  --color-apagado: var(--color-morado-claro);
+  --color-white: var(--color-blanco);
+
+  --button-background-color-default: var(--color-white);
+  --button-color-default: var(--color-white);
+  --button-border-color-default: var(--color-white);
+
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 4px 8px;
+  width: 20px;
+
+  display: inline;
+  border-width: 1px;
+  //border-radius: 4px;
+
+
+
+  background-color: var(--button-background-color-default);
+  color: var(--button-color-default);
+  border-color: var(--button-border-color-default);
+
+  &__cortafuegos {
+    border-style: solid;
+    &--off {
+      --button-border-color-default: var(--color-encendido);
+      --button-color-default: var(--color-encendido);
+    }
+    &--on {
+      --button-background-color-default: var(--color-encendido);
+      --button-border-color-default: var(--color-encendido);
+    }
+  }
+
+  &__selinux {
+    border-style: solid;
+    &--off {
+      --button-border-color-default: var(--color-apagado);
+      --button-background-color-default: var(--color-apagado);
+    }
+    &--on {
+      --button-color-default: var(--color-apagado);
+      --button-border-color-default: var(--color-apagado);
+    }
+  }
+}

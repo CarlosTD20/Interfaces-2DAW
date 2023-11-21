@@ -1,0 +1,35 @@
+.l-navigation{
+  display: grid;
+  grid-template-areas:
+                  "arriba arriba arriba arriba arriba"
+                  "navigation contenido contenido contenido contenido"
+                  "pie pie pie pie pie";
+  grid-template-columns: repeat(5, 1fr);
+  //grid-template-columns: 1fr 1fr  1fr  1fr  1fr;
+  //grid-template-columns: repeat(auto-fit, 100px );
+
+  &--switch{
+    grid-template-areas:
+                  "arriba arriba arriba arriba arriba"
+                  "contenido contenido contenido contenido navigation"
+                  "pie pie pie pie pie";
+  }
+
+  &__header{
+    width: 30px;
+    grid-area: arriba;
+  }
+  &__navigation{
+    width: 30px;
+    grid-area: navigation;
+  }
+  &__content{
+    width: 30px;
+    grid-area: contenido;
+  }
+  &__footer{
+    width: 30px;
+    grid-area: pie;
+  }
+
+}

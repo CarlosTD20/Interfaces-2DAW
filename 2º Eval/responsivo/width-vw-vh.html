@@ -9,7 +9,7 @@
 
     <style>
         html {
-            font-size: 128px;
+            font-size: 16px;
         }
     </style>
 </head>
@@ -20,14 +20,41 @@
        <h1 style="color: white; font-size:10vw; font-family: system-ui;">HOLA MUNDO</h1>
     </div> -->
 
-    <div style=" background-color: red; width: 100vmin; height: 100vmin; background-image:url(./img/tortilla.jpg); background-size: cover;">
+    <!-- <div style=" background-color: red; width: 100vmin; height: 100vmin; background-image:url(./img/tortilla.jpg); background-size: cover;">
         <h1 style="color: white;font-size:10vw; font-family: system-ui;">HOLA MUNDO</h1>
-     </div>
+     </div> -->
 
-    <div style="font-size: 32px;">
-        <p style="font-size: 1em;">Hola Mundo</p> <!--em actua frente al elemento padre-->
+        <!--em actua frente al elemento padre-->
+        <!--rem actua frente al tamaño principal de la página-->    
+
+     <!-- <div style="font-size: 32px;">
+        <p style="font-size: 1em;">Hola Mundo</p> 
         <p style="font-size: 2em;">Hola mundo</p>
-        <p style="font-size: 1rem;">Hola mundo</p><!--rem actua frente al tamaño principal de la página-->
+        <p style="font-size: 1rem;">Hola mundo</p>
+    </div> -->
+
+    <div style="font-size: 16px;">
+        <p style="font-size: 16px;">Hola Mundo, 16px</p>
+        <p style="font-size: 1em;">Hola mundo, 1em</p>
+        <p style="font-size: 1rem;">Hola mundo, 1rem</p>
     </div>
+
+    <div>
+        <p>------------------------MIN-------------------------</p>
+     </div>
+     <!--Limita el tamaño maximo de la fuente, es decir la fuente no se hará más grande-->
+     <p style="font-size: 16px ;font-size: min(100px,10vw);">Hola Mundo</p>
+
+    <div>
+        <p>------------------------MAX-------------------------</p>
+     </div>
+    <!--Limita el tamaño mínimo de la fuente, es decir la fuente no se hará más pequeña-->
+     <p style="font-size: 16px; font-size: max(40px,10vw);">Hola Mundo</p>
+
+     <div>
+        <p>------------------------CLAMP-------------------------</p>
+     </div>
+    <!--Limita el tamaño mínimo de la fuente, es decir la fuente no se hará más pequeña-->
+     <p style="font-size: 16px; font-size: clamp(60px,10vw,100px);">Hola Mundo</p>
 </body>
 </html>

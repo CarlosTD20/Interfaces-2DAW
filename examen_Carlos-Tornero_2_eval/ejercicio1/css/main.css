@@ -1,0 +1,32 @@
+.g-display-img {
+  display: block;
+}
+.g-display-img--none {
+  display: none;
+}
+@media (min-width: 600px) {
+  .g-display-img\@tablet {
+    display: block;
+  }
+  .g-display-img--none\@tablet {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .g-display-img\@desktop {
+    display: block;
+  }
+  .g-display-img--none\@desktop {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .g-display-img\@fulldesktop {
+    display: block;
+  }
+  .g-display-img--none\@fulldesktop {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

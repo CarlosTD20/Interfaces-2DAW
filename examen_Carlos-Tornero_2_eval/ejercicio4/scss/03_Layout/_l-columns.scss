@@ -1,0 +1,52 @@
+.l-columns {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    &--2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &--3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &--4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    &__area-span-1 {
+        grid-column: span 1;
+
+    }
+
+    &__area-span-2 {
+        grid-column: span 2;
+
+    }
+
+    &__area-span-3 {
+        grid-column: span 3;
+
+    }
+
+    &__area-span-4 {
+        grid-column: span 4;
+
+    }
+
+
+    @each $breakpointName, $valueBreakpoint in $breakpoint {
+        @media (min-width: $valueBreakpoint) {
+            @for $i from 1 to 5 {
+                &--#{$i}\@#{$breakpointName} {
+                    grid-template-columns: repeat($i, 1fr);
+                }
+
+                &__area-span-#{$i}\@#{$breakpointName} {
+                    grid-column: span $i;
+                }
+            }
+
+        }
+    }
+}

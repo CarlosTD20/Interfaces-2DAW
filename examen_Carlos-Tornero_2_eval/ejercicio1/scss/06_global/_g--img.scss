@@ -1,0 +1,43 @@
+.g-display-img{
+    display: block;
+
+    &--none{
+        display: none;
+    }
+
+    @each $breakpointName, $valueBreakpoint in $breakpoint{
+        @media (min-width: $valueBreakpoint) {
+                &\@#{$breakpointName}{
+                    display: block;
+                }
+                &--none\@#{$breakpointName}{
+                    display: none;
+                }
+            }
+    }
+}
+
+// @media (min-width: 600px) {
+//     &\@tablet{
+//         display: block;
+//     }
+//     &--none\@tablet{
+//         display: none;
+//     }
+// }
+// @media (min-width: 900px) {
+//     &\@desktop{
+//         display: block;
+//     }
+//     &--none\@desktop{
+//         display: none;
+//     }
+// }
+// @media (min-width: 1200px) {
+//     &\@fulldesktop{
+//         display: block;
+//     }
+//     &--none\@fulldescktop{
+//         display: none;
+//     }
+// }

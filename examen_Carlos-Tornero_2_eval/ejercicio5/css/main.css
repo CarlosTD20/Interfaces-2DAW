@@ -1,0 +1,208 @@
+@charset "UTF-8";
+.l-columns {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.l-columns--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.l-columns--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.l-columns--4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.l-columns__area-span-2 {
+  grid-column: span 2;
+}
+.l-columns__area-span-3 {
+  grid-column: span 3;
+}
+.l-columns__area-span-4 {
+  grid-column: span 4;
+}
+@media (min-width: 700px) {
+  .l-columns--1\@tablet {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .l-columns__area-span-1\@tablet {
+    grid-column: span 1;
+  }
+  .l-columns--2\@tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .l-columns__area-span-2\@tablet {
+    grid-column: span 2;
+  }
+  .l-columns--3\@tablet {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .l-columns__area-span-3\@tablet {
+    grid-column: span 3;
+  }
+  .l-columns--4\@tablet {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .l-columns__area-span-4\@tablet {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 900px) {
+  .l-columns--1\@desktop {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .l-columns__area-span-1\@desktop {
+    grid-column: span 1;
+  }
+  .l-columns--2\@desktop {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .l-columns__area-span-2\@desktop {
+    grid-column: span 2;
+  }
+  .l-columns--3\@desktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .l-columns__area-span-3\@desktop {
+    grid-column: span 3;
+  }
+  .l-columns--4\@desktop {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .l-columns__area-span-4\@desktop {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 1200px) {
+  .l-columns--1\@fulldesktop {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .l-columns__area-span-1\@fulldesktop {
+    grid-column: span 1;
+  }
+  .l-columns--2\@fulldesktop {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .l-columns__area-span-2\@fulldesktop {
+    grid-column: span 2;
+  }
+  .l-columns--3\@fulldesktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .l-columns__area-span-3\@fulldesktop {
+    grid-column: span 3;
+  }
+  .l-columns--4\@fulldesktop {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .l-columns__area-span-4\@fulldesktop {
+    grid-column: span 4;
+  }
+}
+
+.l-area {
+  display: grid;
+}
+.l-area__a {
+  grid-area: a;
+}
+.l-area__b {
+  grid-area: b;
+}
+.l-area--ab-vertical {
+  grid-template-areas: "a" "b";
+}
+.l-area--ba-vertical {
+  grid-template-areas: "b" "a";
+}
+.l-area--ab-horizontal {
+  grid-template-areas: "a b";
+}
+.l-area--ba-horizontal {
+  grid-template-areas: "b a";
+}
+@media (min-width: 700px) {
+  .l-area__a\@tablet {
+    grid-area: a;
+  }
+  .l-area__b\@tablet {
+    grid-area: b;
+  }
+  .l-area--ab-vertical\@tablet {
+    grid-template-areas: "a" "b";
+  }
+  .l-area--ba-vertical\@tablet {
+    grid-template-areas: "b" "a";
+  }
+  .l-area--ab-horizontal\@tablet {
+    grid-template-areas: "a b";
+  }
+  .l-area--ba-horizontal\@tablet {
+    grid-template-areas: "b a";
+  }
+}
+@media (min-width: 900px) {
+  .l-area__a\@desktop {
+    grid-area: a;
+  }
+  .l-area__b\@desktop {
+    grid-area: b;
+  }
+  .l-area--ab-vertical\@desktop {
+    grid-template-areas: "a" "b";
+  }
+  .l-area--ba-vertical\@desktop {
+    grid-template-areas: "b" "a";
+  }
+  .l-area--ab-horizontal\@desktop {
+    grid-template-areas: "a b";
+  }
+  .l-area--ba-horizontal\@desktop {
+    grid-template-areas: "b a";
+  }
+}
+@media (min-width: 1200px) {
+  .l-area__a\@fulldesktop {
+    grid-area: a;
+  }
+  .l-area__b\@fulldesktop {
+    grid-area: b;
+  }
+  .l-area--ab-vertical\@fulldesktop {
+    grid-template-areas: "a" "b";
+  }
+  .l-area--ba-vertical\@fulldesktop {
+    grid-template-areas: "b" "a";
+  }
+  .l-area--ab-horizontal\@fulldesktop {
+    grid-template-areas: "a b";
+  }
+  .l-area--ba-horizontal\@fulldesktop {
+    grid-template-areas: "b a";
+  }
+}
+
+.c-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  width: 80%;
+}
+.c-formulario__border:hover {
+  border: solid red;
+}
+.c-formulario__border:focus {
+  transform: scale(1.1, 1.1);
+}
+.c-formulario__border--ambos {
+  transition: border 3s, transform 3s;
+}
+.c-formulario__border--color {
+  transition: border 3s;
+}
+.c-formulario__border--tamaño {
+  transition: transform 3s;
+}
+
+/*# sourceMappingURL=main.css.map */
